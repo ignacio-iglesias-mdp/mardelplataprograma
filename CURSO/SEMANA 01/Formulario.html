@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para la clase</title>
+</head>
+
+<body>
+    
+
+    <table border="2">
+        <th> <img src="#" alt="LOGO"></th>
+        <th>Nombre Institucon</th>
+    </table>
+<br>
+<h1>Complete el siguiente formulario con sus datos.</h1>
+    <!-- Formulario -->
+    <form>
+        <!-- nombre -->
+        <div>
+            <label for="nombre">Nombre/s :</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <br>
+        <!-- apellido -->
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+        </div>
+        <br>
+        <!-- e-mail -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <!-- Edad -->
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="18" max="99">
+        </div>
+        <br>
+        <!-- F. nac. -->
+        <div>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        <br>
+        <!-- Campo de selección (Pais) -->
+        <div>
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value selected="1">Argentina</option>
+                <option value="2">Brasil</option>
+                <option value="3">Chile</option>
+                <option value="4">Uruguay</option>
+                <option value="5">Bolivia</option>
+                <option value="6">Peru</option>
+            </select>
+        </div>
+        <br>
+        <!-- Casillas de verificación (Genero) -->
+        <div>
+            <label>Género:</label>
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+        </div>
+        <br>
+        <!-- Botones de radio (Intereses) -->
+        <div>
+            <label>Intereses:</label>
+            <label><input type="checkbox" name="intereses" value="deportes"> Deportes</label>
+            <label><input type="checkbox" name="intereses" value="musica"> Música</label>
+            <label><input type="checkbox" name="intereses" value="arte"> Arte</label>
+        </div>
+
+        <br>
+
+        <!-- Casillas de verificación (Empleo) -->
+        <div>
+            <label>Trabaja:</label>
+            <label><input type="radio" name="genero" value="si"> Si</label>
+            <label><input type="radio" name="genero" value="no"> No</label>
+        </div>
+
+        <br>
+
+        <!-- Área de texto (Mensaje) -->
+        <div>
+            <label for="mensaje">Mensaje:</label>
+        </div>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="50"></textarea>
+
+        <br>
+        
+        <!-- Botón de envío -->
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+    
+    <!-- Pie de página -->
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
