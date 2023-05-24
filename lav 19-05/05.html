@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Formularios</title>
+</head>
+
+<body>
+
+    <!-- Formulario -->
+    <form>
+    
+    <h1>Datos Personales Formulario</h1>
+    <!-- nombre -->
+    <label for="nombre">Nombre:</label>
+    <input id="nombre" name="nombre" type="text" placeholder="Ingrese Nombre" required>
+    <br>
+    <!-- apellido-->
+    <label for="apellido">Apellido:</label>
+    <input id="apellido" type="text" placeholder="Ingrese Apellido" required>
+    <br>
+    <!-- genero-->
+    <label>Género</label>
+        <input type="radio" name="gender" checked> Masculino
+        <input type="radio" name="gender"> Femenino
+    <br>
+    <!-- fecha de nacimiento -->
+    <label for="fe.nac">Fecha de nacimiento:</label>
+    <input id="fe.nac" type="date" name="fe.nac" required>
+    <br>
+    <!-- email-->
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="Ingrese Email" required>
+    <br>
+    <!--telefono-->
+    <label for="telefono">Telefono:</label>
+    <input id="telefono" type="tel" placeholder="Ingrese telefono" required>
+    <br>
+    <!-- pais-->
+    <label>Selecciones un pais:</label>
+    <select name="pais">
+        <option selected value="Argentina">Argentina</option>
+        <option value="Alemania">Alemania</option>
+        <option value="Africa">Africa</option>
+        <option value="Brasil">Brasil</option>
+        <option value="bolibia">bolibia</option>
+        <option value="China">China</option>
+        <option value="Canada">Canada</option>
+        <option value="Estados Unidos">Estados Unidos</option>
+        <option value="Paraguay">Paraguay</option>
+        <option value="Uruguay">Uruguay</option>
+       
+    </select>
+    <br>
+    <!-- botones de radio -->
+    <br>
+    <label>Intereses:</label>
+    <label><input type="checkbox" name="intereses" value="0"> Deportes</label>
+    <label><input type="checkbox" name="intereses" value="1"> Música</label>
+    <label><input type="checkbox" name="intereses" value="2"> Arte</label>
+    </br>
+    <!-- trabaja-->
+    <label>Trabaja?:</label>
+    <label>Si</label>
+    <input type="radio" value="0" name="Trabaja?">
+    <label>No</label>
+    <input type="radio" value="1" name="Trabaja?">
+    <br>
+    <!-- área de texto -->
+    <br>
+        <label for="mensaje">Mensaje:</label>
+    </br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="40" required></textarea>
+    
+    <!-- botón de envío -->
+    <br>
+        <button type="button"><img src="">Accion</button>
+        <button type="reset">Limpiar</button>
+        <button type="submit">Registrarse</button>
+    </br>
+
+    </form>
+
+</body>
+
+</html>
+
+
+
