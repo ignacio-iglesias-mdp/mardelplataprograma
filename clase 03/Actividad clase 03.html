@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad clase 03</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Resumen HTML.</h1>
+        <p>
+            El lenguaje HTML (HyperText Markup Language) es la base fundamental de todo sitio web. 
+            <br>
+            Es el lenguaje utilizado para describir la estructura y el contenido de las páginas web, permitiendo a los navegadores interpretar y mostrar el contenido de manera adecuada.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" style="width: 200px;" alt="Imagen HTML">
+    </header>
+
+    <main>
+
+    <nav>
+        <ul>
+            <li><a href="#head">El head</a></li>
+            <li><a href="#body">El body</a></li>
+            <li><a href="#nav">El nav</a></li>
+            <li><a href="#aside">El aside</a></li>
+            <li><a href="#header">El header</a></li>
+            <li><a href="#footer">El footer</a></li>
+            <li><a href="#varios">Varios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+    </nav>
+
+    <h3>Etiquetas HTML</h3>
+
+    <article id="head">
+        <H3>El head.</H3>
+        <p>
+            La etiqueta < head > es un elemento esencial en la estructura de una página HTML. Se encuentra al inicio del documento, justo después de la etiqueta de apertura < html > y antes de la etiqueta < body > .
+            <br>
+            El propósito de la etiqueta < head >  es proporcionar información general sobre el documento, como el título de la página, la codificación de caracteres, las hojas de estilo (CSS) y los scripts de JavaScript.
+            <br>
+            La información contenida en la etiqueta < head > no se muestra directamente en la ventana del navegador, sino que se utiliza para proporcionar información a los navegadores y motores de búsqueda.
+        </p>
+    </article>
+
+    <article id="body">
+        <H3>El body.</H3>
+        <p>
+            En términos simples, la etiqueta < body > es el “esqueleto” de una página web
+            <br>
+            Los navegadores web utilizan la información contenida dentro de la etiqueta <body> para renderizar y mostrar el contenido de una página web a los usuarios.
+        </p>
+    </article>
+
+    <article id="header">
+        <H3>El header.</H3>
+        <p>
+            La etiqueta < header > es un contenedor de bloque, lo que significa que puede contener varios elementos HTML y ocupar todo el ancho disponible.
+            <br>
+            Por lo general, se utiliza al principio de una sección o de una página.
+        </p>
+    </article>
+
+    
+    <article id="nav">
+        <H3>El nav.</H3>
+        <p>
+            El propósito principal de esta etiqueta es identificar claramente las áreas de navegación principal, facilitando a los navegadores web, motores de búsqueda y tecnologías de asistencia comprender mejor la estructura y jerarquía del contenido de un sitio web.
+          <br>
+             La etiqueta < nav > se utiliza típicamente para contener enlaces de navegación a las áreas más importantes de un sitio web, como las páginas principales, las categorías o las secciones de contenido relevantes.
+        </p>
+    </article>
+
+    <article id="article">
+        <h3>El article.</h3>
+        <p>
+            La etiqueta < article > en HTML5 es utilizada para definir un contenido autónomo y de importancia en una página web. Por ejemplo, una entrada de blog, una revisión, una publicación en un foro, etc.
+            <br>
+            Es un contenedor semántico: La etiqueta < article > permite a los desarrolladores web definir el contenido principal en una página web, mejorando la estructura y accesibilidad del sitio.
+            <br>
+            Mejora el SEO: Al marcar claramente el contenido principal de una página web, se mejora la capacidad de los motores de búsqueda para indexar el contenido y mostrar los resultados de búsqueda más relevantes.
+            <br>
+            Reutilización: Debido a que el contenido dentro de una etiqueta < article > es autónomo, se puede reutilizar en otras partes del sitio o incluso en otras páginas web.
+            <br>
+            Accesibilidad: Al utilizar la etiqueta < article > para identificar contenido autónomo, se facilita la navegación por parte de los usuarios de lectores de pantalla y otros dispositivos de accesibilidad.
+        </p>
+    </article>
+
+    <article id="aside">
+        <h3>El aside.</h3>
+        <p>
+            La etiqueta < aside > en HTML5 es un contenedor para contenido secundario o lateral relacionado con el contenido principal de una página web. Es comúnmente utilizada para incluir contenido adicional, como barras laterales, widgets, menús de navegación, biografías de autor, etc.
+            <br>
+            El contenido dentro de la etiqueta < aside > se considera no esencial para la comprensión del contenido principal, pero puede ser útil o interesante para los usuarios.
+        </p>
+    </article>
+
+    <article id="footer">
+        <h3>El footer.</h3>
+        <p>La etiqueta < footer > es una de las nuevas etiquetas semánticas introducidas en HTML5 que se utiliza para representar la sección de pie de página de un documento web.
+            <br>
+            Es común utilizarla para incluir información sobre el autor del sitio web, la fecha de publicación, enlaces a páginas relacionadas o cualquier otra información relevante que se desee mostrar en el pie de página.
+            <br>
+            La etiqueta < footer > se coloca dentro del elemento < body > y debe contener información relacionada con el contenido del documento. A menudo se utiliza junto con otras etiquetas semánticas como < header >, < nav >, < section >, entre otras.
+        </p>
+   
+    </article>
+
+
+    <article id="varios">
+        <H3>Listas</H3>
+        <ul><H5>Desordenada</H5>
+            <li>lista 1</li>
+            <li>lista 2</li>
+            <li>lista 3</li>
+        </ul>
+
+        <ol><h5>Ordenada</h5>
+            <li>lista 1</li>
+            <li>lista 2</li>
+            <li>lista 3</li>
+        </ol>
+
+
+        <H3>Tablas</H3>
+        <table border="4">
+
+            <th colspan="4">NOMBRE DE LA TABLA</th>
+        
+            <tr>
+                <th>
+                    Dato Nª1
+                </th>
+                <td>------</td>
+            </tr>
+            <tr>
+                <th>
+                    Dato Nª2
+                </th>
+                <td>------</td>
+            </tr>
+            <tr>
+                <th>
+                    Dato Nª4
+                </th>
+                <td>------</td>
+            </tr>
+            <tr>
+                <th>
+                    Dato Nª5
+                </th>
+                <td>------</td>
+            </tr>
+            <td colspan="4">Mensaje</td>
+           
+        </table>
+
+        <br>
+
+        <table border="4">
+            <tr>
+                <th>Dato 1</th>
+                <th>Dato 2</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Dato 3</td>
+                <td>------</td>
+            </tr>
+            <tr>
+                <td>-------</td>
+            </tr>
+            <tr>
+                <td>-------</td>
+                <td>-------</td>
+            </tr>
+            <tr>
+                <td>-------</td>
+                <td>-------</td>
+            </tr>
+            </table>
+            
+            <br/>
+            
+            <table border="4">
+            <tr>
+                <th>Dato 1</th>
+                <td colspan="2">Dato 2</td>
+                <td>Dato 3</td>
+            </tr>
+            <tr>
+                <th> Dato 4</th>
+                <td>------</td>
+                <td>------</td>
+                <td>------</td>
+            
+            </tr>
+            </table>
+    </article>
+
+
+</main>
+
+
+    <aside>
+       <H5>¿Qué es y para qué sirve el HTML5?</H5> 
+        <p>
+           HTML5 (HyperText Markup Language, versión 5) es la quinta revisión del lenguaje HTML y permite definir los nuevos estándares de desarrollo web, modificando el código existente para solucionar problemas y actualizándolo a las nuevas necesidades de hoy en día.
+        </p>
+    </aside>
+
+    <footer>
+        <H5>¿Qué es y para qué sirve el Footer?</H5> 
+        <p>
+            El footer es la parte inferior de una página web, en la que se incluye una serie de elementos que pueden resultar de interés para el usuario que navega por ella, como enlaces a las categorías principales, información de contacto, redes sociales o enlaces a textos legales.
+        </p>
+
+
+    </footer>
+
+</body>
+</html>
+
+
+
+   
