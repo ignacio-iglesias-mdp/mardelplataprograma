@@ -1,0 +1,113 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+:root{
+    --title:'Roboto Condensed';
+    --subtitle:'Roboto Mono';
+    --nav:'Roboto Condensed';
+    --color-primary: #d75d00;
+    --color-primari-2:#752505;
+    --color-secondary:#332c40;
+    --Color-parrafo:#4716e6;
+    --font-size-title:60px;
+    --size-s:35px;
+    --size-m:18px;
+}
+
+.title{
+
+    font-family: var(--title);
+    font-size: var(--font-size-title);
+    color: var(--color-primary) ;
+}
+
+body{
+    background-color: rgb(183, 182, 182);
+    width: 75%;
+
+}
+header img{
+    max-width: 200px;
+    
+}
+
+.title2{
+
+    font-family: var(--title);
+    font-size: var(--size-xl);
+    color: var(--color-primari-2);
+}
+
+.subtitle{
+    font-family: var(--subtitle);
+    font-size:var(--size-s);
+    color: var(--color-secondary);
+}
+
+.parrafo{
+    font-family: var(--title);
+    font-size: var(--size-m);
+    color:var(--Color-parrafo);
+}
+
+header{
+    width: 80dvw;
+    background-color: rgb(183, 182, 182);
+
+}
+
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+
+
+
+}
+
+#navcss{
+    font-family: var(--nav);
+    width: 10dw;
+    background-color: bisque;
+    color:#333;
+    text-decoration: none;
+    padding: 0px 15px;
+    line-height: 32px;
+}
+
+#navcss li{
+    display: block;
+}
+
+#navcss ul li:hover{
+    background-color: white;
+}
+.title2{
+    font-size: 50px;
+    background-color: #0b0719;
+}
+
+
+aside{
+    width: 25%;
+    float:right;
+    padding: 30px;
+    background-color: #bcbebe;
+}
+
+footer{
+    width: 70%;
+    background-color: #e2e8e8;
+    clear: both;
+    padding: 59px;
+}
+
+h5{
+    font-family: Roboto Condensed;
+    font-size: xx-large;
+}

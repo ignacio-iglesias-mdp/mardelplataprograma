@@ -1,0 +1,26 @@
+*{
+    margin: 20px;
+    padding: 0;
+    border: 5px;
+    border-color: black;
+    background: grey;
+}
+h1{
+    color: blueviolet;
+}
+p:first-child{
+    color: red;
+}
+
+li:first-child{
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p.destacado::before{
+    content: "destacado:";
+    font-weight: bold;
+    font-size: 20px;
+}

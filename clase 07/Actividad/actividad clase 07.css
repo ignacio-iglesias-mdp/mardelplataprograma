@@ -1,0 +1,206 @@
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Open Sans', sans-serif; */ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    h1{
+        font-family:'Open Sans';
+        float: right;
+        font-size: 70px;
+        font-weight: bold;
+        padding-right: 350px;
+        margin-top: 50px;
+        color: #021651;
+    }
+    
+    body{
+        font-family:'Open Sans';
+    }
+    header{
+        width: 100%;
+        height: 200px;
+        background-color: #f5ab0a;
+        margin: 0px;
+    }
+    header img{
+        max-width: 200px;
+        float:left;
+        background:none;
+    }
+    header nav{
+        font-family: 'Open Sans';  
+    }
+    .menuHeader ul{
+        list-style: none;
+         
+    }
+    .menuHeader li{
+        float: left;
+        margin-top: 100px;
+        padding-right: 50px;
+    }
+    .menuHeader li a{
+        text-decoration: none;
+        padding: 20px;
+        display: inline-block;
+        color:rgb(34, 108, 180);
+        font-weight:bold;
+        font-size: 20px;
+    }
+
+    .menuHeader li a:hover{
+        color:#5ea8f7;
+    }
+    main{
+        clear:both;
+        width: 67%;
+        background-color: #03145076;
+        float: left;
+        overflow-y:auto;
+        height: 635px;
+        margin: 0% 0% 0% 1%;
+    }
+
+
+    main .card-product{
+        border: 5px solid #f6f1f1;
+        border-radius: 20px;
+        background-color: rgb(237, 236, 204);
+        padding: 10px;
+        margin: 40px;
+        margin-top: 15px;
+        margin-bottom:15px;
+        margin-left: 60px;
+        display:inline-table;
+    
+    }
+    
+    main .card-product img{
+        max-width: 100%;
+        margin: auto;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 2px solid rgb(34, 108, 180);
+        height: auto;
+        width: auto;
+        max-height: 180px;
+    
+    }
+    main .card-product .description{
+        text-align: center;
+        line-height: 200%; 
+        font-family: 'Assistant';  
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    main .card-product  .precio{
+        text-align: right;
+        font-size: 18px;
+        color: #ed1b24;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+    main .card-product-footer{
+        width: 100%;
+        background-color: rgb(5, 91, 197);
+        height: auto;
+        height: 40px;
+        border-radius: 0px 0px 17px 17px;
+         
+    }
+    main .card-product-footer button{
+        width: 50%;
+        float: left;
+        height: 40px;
+        background-color: rgb(34, 108, 180);
+        height: auto;
+        border-radius: 0px 0px 20px 20px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    aside{
+        width: 30%;
+        background-color: #ffee5166;
+        padding: 20px;
+        float: right;
+        height: 650px;
+    }
+    aside section nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    }
+    aside section nav li{
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ed1b24;
+    }
+    aside section nav a{
+        text-decoration: none;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    aside section nav li:hover{
+        border-bottom: 1px solid #021651;
+        color: #ed1b24;
+    }
+    aside .form{
+        width: 100%;
+        border: 3px solid #021651;
+        border-radius: 10px;
+        padding: 8px;
+    
+    }
+    aside .form h2{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    aside .form input, aside .form textarea{
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    aside .form textarea{
+        height: 100px!important;
+        resize: none;
+    }
+    aside .form button{
+        width: 100%;
+        height: 40px;
+        cursor:pointer;
+        background-color: #ffae00a0;;
+        color: white;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    footer{ 
+        clear: both;
+        padding: 60px;
+        background-color: #fdad00;
+        color: white;
+    }
+    footer div{
+        width: 50%; 
+    }
+    footer .one{
+        float: left;
+    }
+    footer .two{
+        float: right;
+        text-align: right;
+    }
+    footer .two a{
+        color: white;
+        text-decoration: none;
+        padding-right: 10px;
+    }
+   
+
