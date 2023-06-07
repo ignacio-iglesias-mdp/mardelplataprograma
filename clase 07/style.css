@@ -1,0 +1,71 @@
+.scroll{
+    overflow: scroll;
+    height: 200px;
+    width: 100px;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background-color: azure;
+    border-radius: 10px;
+    border: 3px solid   red;
+}
+
+.flex-container{
+    display: flex;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    height: 50vh;
+    /* 
+    align-items
+    flex-wrap
+    flex-direcction
+
+    */
+}
+.flex-item{
+background-color: black;
+width:100px ;
+margin: 10px; ;
+color: aqua;
+font-size: 50px;
+
+}
+
+
+.flex-main{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-uno.uno{
+    display: flex;
+    height: 30%;
+}
+.flex-uno.uno{
+    width: 70%;
+    border: 1px solid red;
+}
+
+.flex-dos{
+    display: flex;
+    height: 40%;
+    order: 2;
+}
+.flex-dos.dos{
+    flex-grow: 12;
+    width: 60%;
+    border: 1px solid red;
+    order: 1;
+}
+
