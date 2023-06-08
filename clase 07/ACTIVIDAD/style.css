@@ -2,13 +2,14 @@
     margin: 0;
 	padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 body{
-    background-image:url(./ASSET/mantel.jpeg);
+    background-image:url(./ASSET/mantel.jpeg) ;
     background-size: cover;
+    background-position: center;
 }
+
 
 .contenedor-p{
     display: flex;
@@ -129,4 +130,58 @@ main{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+footer{ 
+    clear: both;
+    padding: 70px;
+    background-color: #3b0205;
+    color: white;
+}
+footer div{
+    width: 50%; 
+}
+footer .one{
+    float: left;
+}
+footer .two{
+    float: right;
+    text-align: right;
+    display: flex;
+}
+footer .two a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    overflow:hidden;
+    transition:trasform 1.3s ease-in-out;
+    transition-duration: 2s;
+}
+
+.two a img{
+width: 45px;
+}
+
+.two a img:hover{
+    width: 65px;
+}
+
+body {
+    position: relative;
+    z-index: 1;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('./ASSET/mantel.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px); /* Ajusta el valor de desenfoque según tus preferencias */
+
 }
