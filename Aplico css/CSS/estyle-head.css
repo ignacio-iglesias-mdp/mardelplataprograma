@@ -1,0 +1,140 @@
+*{  margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Serif', serif; */
+
+body{
+    background-color: #CCD5AE;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Roboto Serif;
+    color: #FEFAE0;
+    text-align: center;
+    margin-top: 2%;
+}
+a:active{
+    background-color: #e44e26; ;
+}
+
+.header{
+    display: flex;
+    margin: 1% 5%
+
+}
+
+
+p{
+    font-size: 30px;
+    font-family: Roboto Mono;
+    color: #000000;
+}
+
+#navcss{
+    margin: 3%;
+    font-size: 20px;
+    font-family: Roboto Mono;
+    font-weight: bold;
+}
+
+a:hover{
+    border: 1px solid  #7a835d;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    background:#faedcdb3;
+    text-decoration: none;
+    color: #7a835d;
+    border-radius: 7%;
+    width: 25px;
+    padding: 4px;
+}
+
+a:hover{
+    border: 2px solid  #7a835d;
+    color: #e44e26;
+
+}
+
+h2{
+    font-size: 40px;
+    font-family: Roboto Serif;
+    color: #f8e7bc;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 40px;
+    font-family: Roboto Serif;
+    color: #f8e7bc;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h5{
+    color: #e5e3e3;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.main{
+    display:flex;
+    width: 69%;  
+    margin: 3%;  
+}
+
+.imgres{
+    border-radius: 5px;
+    width: 40%;
+    height: 10%;
+    margin:0% 3%;
+}
+
+#head{
+    width: 55%;
+}
+aside{
+    width: 20%;
+    text-align: center;
+    border: 2px solid #7a835dd6;
+    border-radius: 5px;
+    background-color: #7a835da8;
+}
+
+footer{
+    width: 92%;
+    text-align: center;
+    border: 2px solid #7a835dd6;
+    border-radius: 5px;
+    background-color: #7a835da8;
+    margin: 5%;
+    align-items: center;
+}
+
+.parrafo{
+    font-size: 18px;
+
+}
+
+#head{
+    background-color: #e44e26 !important;
+    color: #FAEDCD;
+}

@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lo que pude hacer usando HTML</title>
     <link rel="shortcut icon" href="/ASSET/figurin.jpeg" tipe="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Serif:ital@1&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -14,15 +20,17 @@
 
     <header>
         <h1 class="title">Resumen HTML 5.</h1>
-        <p class="parrafo">
-            El lenguaje HTML (HyperText Markup Language) es la base fundamental de todo sitio web.
-            <br>
-            Es el lenguaje utilizado para describir la estructura y el contenido de las páginas web, permitiendo a los
-            navegadores interpretar y mostrar el contenido de manera adecuada.
-        </p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" style="width: 200px;"
-            alt="Imagen HTML">
-
+        <div class="header">
+            <p class="parrafo">
+                El lenguaje HTML (HyperText Markup Language) es la base fundamental de todo sitio web.
+                <br>
+                Es el lenguaje utilizado para describir la estructura y el contenido de las páginas web, permitiendo a
+                los
+                navegadores interpretar y mostrar el contenido de manera adecuada.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                style="width: 250px;" alt="Imagen HTML">
+        </div>
         <nav id="navcss">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -31,7 +39,7 @@
                 <li><a href="El Nav.html">El nav</a></li>
                 <li><a href="El Aside.html">El aside</a></li>
                 <li><a href="El Header.html">El header</a></li>
-                <li><a href="El Article.html">El Article</a></li>
+                <li><a href="El Article.html">El article</a></li>
                 <li><a href="El Footer.html">El footer</a></li>
                 <li><a href="Varios.html">Varios</a></li>
                 <li><a href="Contacto.html">Contacto</a></li>
@@ -41,8 +49,22 @@
 
     <hr>
 
-    <h2>Resumen personal de lo que fui aprediendo.</h2>
-    <img src="/ASSET/html.png" alt="Etiquetas html">
+    <h2 class="title2">Etiqueta HTML</h2>
+
+    <img src="/ASSET/NAV.png" alt="Nav en HTML">
+
+    <article id="nav">
+        <H3 class="subtitle">El nav.</H3>
+        <p class="parrafo">
+            El propósito principal de esta etiqueta es identificar claramente las áreas de navegación principal,
+            facilitando a los navegadores web, motores de búsqueda y tecnologías de asistencia comprender mejor la
+            estructura y jerarquía del contenido de un sitio web.
+            <br>
+            La etiqueta < nav> se utiliza típicamente para contener enlaces de navegación a las áreas más
+                importantes de un sitio web, como las páginas principales, las categorías o las secciones de
+                contenido relevantes.
+        </p>
+    </article>
 
     <aside>
         <H5>¿Qué es y para qué sirve HTML5?</H5>
