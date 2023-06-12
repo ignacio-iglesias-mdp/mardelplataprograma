@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lo que pude hacer usando HTML</title>
     <link rel="shortcut icon" href="/ASSET/figurin.jpeg" tipe="image/x-icon">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./CSS/estyle-footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
     <header>
         <h1 class="title">Resumen HTML 5.</h1>
         <div class="header">
-            <p class="parrafo">
+            <p>
                 El lenguaje HTML (HyperText Markup Language) es la base fundamental de todo sitio web.
                 <br>
                 Es el lenguaje utilizado para describir la estructura y el contenido de las páginas web, permitiendo a
@@ -40,33 +40,29 @@
                 <li><a href="El Aside.html">El aside</a></li>
                 <li><a href="El Header.html">El header</a></li>
                 <li><a href="El Article.html">El article</a></li>
-                <li><a href="El Footer.html">El footer</a></li>
+                <li><a href="El Footer.html" id="footer">El footer</a></li>
                 <li><a href="Varios.html">Varios</a></li>
                 <li><a href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <hr>
-
-    <h2 class="title2">Etiqueta HTML</h2>
-
-    <img src="/ASSET/FOOTER.png" alt="Footer en HTML">
-
-    <article id="footer">
-        <h3 class="subtitle">El footer 5.</h3>
-        <p class="parrafo">La etiqueta < footer> es una de las nuevas etiquetas semánticas introducidas en HTML5 que
-                se utiliza para representar la sección de pie de página de un documento web.
-                <br>
-                Es común utilizarla para incluir información sobre el autor del sitio web, la fecha de publicación,
-                enlaces a páginas relacionadas o cualquier otra información relevante que se desee mostrar en el pie
-                de página.
-                <br>
-                La etiqueta < footer> se coloca dentro del elemento < body> y debe contener información relacionada
-                        con el contenido del documento. A menudo se utiliza junto con otras etiquetas semánticas
-                        como < header>, < nav>, < section>, entre otras.
-        </p>
-
+    <div class="pmain">
+        <div class="main">
+            <article id="footer">
+                <h3 class="subtitle">El footer 5.</h3>
+                <p class="parrafo">
+                    La etiqueta < footer> es una de las nuevas etiquetas semánticas introducidas en HTML5 que se utiliza para representar la sección de pie de página de un documento web.
+                    <br>
+                    Es común utilizarla para incluir información sobre el autor del sitio web, la fecha de publicación, enlaces a páginas relacionadas o cualquier otra información relevante que se desee mostrar en el pie de página.
+                    <br>
+                    La etiqueta < footer> se coloca dentro del elemento < body> y debe contener información relacionada con el contenido del documento. A menudo se utiliza junto con otras etiquetas semánticas como < header>, < nav>, < section>, entre otras. 
+                </p>
+                                
+            </article>
+            <img src="/ASSET/FOOTER.png" alt="Footer en HTML" class="imgres">
+        </div>
+        
 
         <aside>
             <H5>¿Qué es y para qué sirve HTML5?</H5>
@@ -77,18 +73,18 @@
                 actualizándolo a las nuevas necesidades de hoy en día.
             </p>
         </aside>
+    </div>
+    <footer>
+        <H5>¿Qué es y para qué sirve el Footer?</H5>
+        <p class="parrafo">
+            El footer es la parte inferior de una página web, en la que se incluye una serie de elementos que pueden
+            resultar de interés para el usuario que navega por ella, como enlaces a las categorías principales,
+            información de contacto, redes sociales o enlaces a textos legales.
+        </p>
 
-        <footer>
-            <H5>¿Qué es y para qué sirve el Footer?</H5>
-            <p class="parrafo">
-                El footer es la parte inferior de una página web, en la que se incluye una serie de elementos que pueden
-                resultar de interés para el usuario que navega por ella, como enlaces a las categorías principales,
-                información de contacto, redes sociales o enlaces a textos legales.
-            </p>
+        <p>DERECHOS RESERVADOS &COPY; 2023</p>
 
-            <p>DERECHOS RESERVADOS &COPY; 2023</p>
-
-        </footer>
+    </footer>
 
 </body>
 

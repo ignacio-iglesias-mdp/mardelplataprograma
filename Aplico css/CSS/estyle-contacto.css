@@ -8,6 +8,7 @@
 /* font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Serif', serif; */
 
+
 body{
     background-color: #CCD5AE;
 }
@@ -39,6 +40,10 @@ p{
     font-size: 30px;
     font-family: Roboto Mono;
     color: #000000;
+}
+
+article{
+align-items: center;
 }
 
 #navcss{
@@ -103,18 +108,16 @@ h5{
 .main{
     display:block;
     width: 69%;  
-    margin: 0% 3% 3% 3%;  
+    margin: 0% 3% 3% 3%;   
 
 }
 
 .imgres{
-    border-radius: 15px;
-    width: 60%;
-    align-items: center;
-    padding: 20px 150px 0 150px; 
+    border-radius: 5px;
+    justify-items: center;
 }
 
-#head{
+#contacto{
     width: 100%;
     border-radius: 5px;
 }
@@ -141,8 +144,80 @@ footer{
     font-size: 18px;
 
 }
+form{
+    font-size: 20px;
+    font-family: Roboto monospace;
+    color: #FEFAE0;
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 5px;
 
-#head{
+}
+
+
+#contacto{
     background-color: #e44e26 !important;
     color: #FAEDCD;
 }
+
+
+
+.flotante{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+.flotante .button{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background: green;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+
+}
+.flotante .button i{
+    color: white;
+    font-size: 40px;
+}
+.flotante .button:hover{
+    background-color: white;   
+}
+.flotante .button:hover > i{
+    color: green; 
+}
+
+input{
+    border: #000000 1px solid;
+    border-radius: 5px;
+    background-color: #e44f2667;
+    font-family: Roboto Serif;
+    color: #FEFAE0;
+    text-align: center;
+    margin-top: 2%;
+}
+
+label{
+    font-family: Roboto Serif;
+    color:#7a835d;
+    text-align: center;
+}
+
+option{
+    background-color: #e44f2667;
+    font-family: Roboto Serif;
+    color: #FEFAE0;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+

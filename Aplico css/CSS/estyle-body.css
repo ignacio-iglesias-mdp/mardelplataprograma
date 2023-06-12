@@ -8,6 +8,7 @@
 /* font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Serif', serif; */
 
+
 body{
     background-color: #CCD5AE;
 }
@@ -29,6 +30,11 @@ a:active{
 
 }
 
+.pmain{
+    display: flex;
+    justify-content: center;
+
+}
 
 p{
     font-size: 30px;
@@ -37,7 +43,7 @@ p{
 }
 
 #navcss{
-    margin: 5%;
+    margin: 3%;
     font-size: 20px;
     font-family: Roboto Mono;
     font-weight: bold;
@@ -76,8 +82,17 @@ a:hover{
 h2{
     font-size: 40px;
     font-family: Roboto Serif;
-    color: #FAEDCD;
+    color: #f8e7bc;
     text-align: center;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 40px;
+    font-family: Roboto Serif;
+    color: #f8e7bc;
+    text-align: center;
+    font-weight: bolder;
 }
 
 h5{
@@ -87,12 +102,20 @@ h5{
 }
 
 .main{
-    width: 70%;
-    display:flex;
+    display:block;
+    width: 69%;  
+    margin: 0% 3% 3% 3%;   
+
 }
 
-.resumen img{
-align-items: center;}
+.imgres{
+    border-radius: 5px;
+}
+
+#body{
+    width: 100%;
+    border-radius: 5px;
+}
 
 aside{
     width: 20%;
@@ -119,8 +142,10 @@ footer{
 
 
 
-
 #body{
     background-color: #e44e26 !important;
     color: #FAEDCD;
 }
+
+
+

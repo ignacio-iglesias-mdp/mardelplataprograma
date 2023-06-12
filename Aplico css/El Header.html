@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lo que pude hacer usando HTML</title>
     <link rel="shortcut icon" href="/ASSET/figurin.jpeg" tipe="image/x-icon">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./CSS/estyle-header.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
     <header>
         <h1 class="title">Resumen HTML 5.</h1>
         <div class="header">
-            <p class="parrafo">
+            <p>
                 El lenguaje HTML (HyperText Markup Language) es la base fundamental de todo sitio web.
                 <br>
                 Es el lenguaje utilizado para describir la estructura y el contenido de las páginas web, permitiendo a
@@ -38,7 +38,7 @@
                 <li><a href="El Body.html">El body</a></li>
                 <li><a href="El Nav.html">El nav</a></li>
                 <li><a href="El Aside.html">El aside</a></li>
-                <li><a href="El Header.html">El header</a></li>
+                <li><a href="El Header.html" id="header">El header</a></li>
                 <li><a href="El Article.html">El article</a></li>
                 <li><a href="El Footer.html">El footer</a></li>
                 <li><a href="Varios.html">Varios</a></li>
@@ -47,31 +47,31 @@
         </nav>
     </header>
 
-    <hr>
+    <div class="pmain">
+        <div class="main">
 
-    <h2 class="title2">Etiqueta HTML 5</h2>
-
-    <img src="/ASSET/HEADER.png" alt="Header en HTML">
-
-    <article id="header">
-        <H3 class="subtitle">El header.</H3>
-        <p class="parrafo">
-            La etiqueta < header> es un contenedor de bloque, lo que significa que puede contener varios elementos
-                HTML y ocupar todo el ancho disponible.
-                <br>
-                Por lo general, se utiliza al principio de una sección o de una página.
-        </p>
-    </article>
-
-    <aside>
-        <H5>¿Qué es y para qué sirve HTML5?</H5>
-        <p class="parrafo">
-            HTML5 (HyperText Markup Language, versión 5) es la quinta revisión del lenguaje HTML y permite definir los
-            nuevos estándares de desarrollo web, modificando el código existente para solucionar problemas y
-            actualizándolo a las nuevas necesidades de hoy en día.
-        </p>
-    </aside>
-
+            <article id="header">
+                <H3 class="subtitle">El header.</H3>
+                <p class="parrafo">
+                    La etiqueta < header> es un contenedor de bloque, lo que significa que puede contener varios
+                        elementos
+                        HTML y ocupar todo el ancho disponible.
+                        <br>
+                        Por lo general, se utiliza al principio de una sección o de una página.
+                </p>
+            </article>
+            <img src="/ASSET/HEADER.png" alt="Header en HTML" class="imgres">
+        </div>
+        <aside>
+            <H5>¿Qué es y para qué sirve HTML5?</H5>
+            <p class="parrafo">
+                HTML5 (HyperText Markup Language, versión 5) es la quinta revisión del lenguaje HTML y permite definir
+                los
+                nuevos estándares de desarrollo web, modificando el código existente para solucionar problemas y
+                actualizándolo a las nuevas necesidades de hoy en día.
+            </p>
+        </aside>
+    </div>
     <footer>
         <H5>¿Qué es y para qué sirve el Footer?</H5>
         <p class="parrafo">

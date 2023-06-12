@@ -8,6 +8,7 @@
 /* font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Serif', serif; */
 
+
 body{
     background-color: #CCD5AE;
 }
@@ -103,18 +104,15 @@ h5{
 .main{
     display:block;
     width: 69%;  
-    margin: 0% 3% 3% 3%;  
+    margin: 0% 3% 3% 3%;   
 
 }
 
 .imgres{
-    border-radius: 15px;
-    width: 60%;
-    align-items: center;
-    padding: 20px 150px 0 150px; 
+    border-radius: 5px;
 }
 
-#head{
+#varios{
     width: 100%;
     border-radius: 5px;
 }
@@ -142,7 +140,9 @@ footer{
 
 }
 
-#head{
+
+
+#varios{
     background-color: #e44e26 !important;
     color: #FAEDCD;
 }

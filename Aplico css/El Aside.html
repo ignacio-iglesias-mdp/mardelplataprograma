@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lo que pude hacer usando HTML</title>
     <link rel="shortcut icon" href="/ASSET/figurin.jpeg" tipe="image/x-icon">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./CSS/estyle-aside.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
     <header>
         <h1 class="title">Resumen HTML 5.</h1>
         <div class="header">
-            <p class="parrafo">
+            <p>
                 El lenguaje HTML (HyperText Markup Language) es la base fundamental de todo sitio web.
                 <br>
                 Es el lenguaje utilizado para describir la estructura y el contenido de las páginas web, permitiendo a
@@ -37,7 +37,7 @@
                 <li><a href="El Head.html">El head</a></li>
                 <li><a href="El Body.html">El body</a></li>
                 <li><a href="El Nav.html">El nav</a></li>
-                <li><a href="El Aside.html">El aside</a></li>
+                <li><a href="El Aside.html" id="aside">El aside</a></li>
                 <li><a href="El Header.html">El header</a></li>
                 <li><a href="El Article.html">El article</a></li>
                 <li><a href="El Footer.html">El footer</a></li>
@@ -47,34 +47,34 @@
         </nav>
     </header>
 
-    <hr>
-
-    <h2 class="title2">Etiqueta HTML 5</h2>
-
-    <img src="ASSET/ASIDE.png" alt="Aside en HTML">
-
-    <article id="aside">
-        <h3 class="subtitle">El aside.</h3>
-        <p class="parrafo">
-            La etiqueta < aside> en HTML5 es un contenedor para contenido secundario o lateral relacionado con el
-                contenido principal de una página web. Es comúnmente utilizada para incluir contenido adicional,
-                como barras laterales, widgets, menús de navegación, biografías de autor, etc.
-                <br>
-                El contenido dentro de la etiqueta < aside> se considera no esencial para la comprensión del
-                    contenido principal, pero puede ser útil o interesante para los usuarios.
-        </p>
-    </article>
+    <div class="pmain">
+        <div class="main">
 
 
-    <aside>
-        <H5>¿Qué es y para qué sirve HTML5?</H5>
-        <p class="parrafo">
-            HTML5 (HyperText Markup Language, versión 5) es la quinta revisión del lenguaje HTML y permite definir los
-            nuevos estándares de desarrollo web, modificando el código existente para solucionar problemas y
-            actualizándolo a las nuevas necesidades de hoy en día.
-        </p>
-    </aside>
-
+            <article id="aside">
+                <h3 class="subtitle">El aside.</h3>
+                <p class="parrafo">
+                    La etiqueta < aside> en HTML5 es un contenedor para contenido secundario o lateral relacionado con
+                        el
+                        contenido principal de una página web. Es comúnmente utilizada para incluir contenido adicional,
+                        como barras laterales, widgets, menús de navegación, biografías de autor, etc.
+                        <br>
+                        El contenido dentro de la etiqueta < aside> se considera no esencial para la comprensión del
+                            contenido principal, pero puede ser útil o interesante para los usuarios.
+                </p>
+            </article>
+            <img src="ASSET/ASIDE.png" alt="Aside en HTML" class="imgres">
+        </div>
+        <aside>
+            <H5>¿Qué es y para qué sirve HTML5?</H5>
+            <p class="parrafo">
+                HTML5 (HyperText Markup Language, versión 5) es la quinta revisión del lenguaje HTML y permite definir
+                los
+                nuevos estándares de desarrollo web, modificando el código existente para solucionar problemas y
+                actualizándolo a las nuevas necesidades de hoy en día.
+            </p>
+        </aside>
+    </div>
     <footer>
         <H5>¿Qué es y para qué sirve el Footer?</H5>
         <p class="parrafo">

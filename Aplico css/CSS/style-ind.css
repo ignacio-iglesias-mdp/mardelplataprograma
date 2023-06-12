@@ -89,7 +89,9 @@ h5{
 
 .main{
     display:flex;
-    justify-content:space-around
+    justify-content:space-around;
+    margin: 0% 3% 3% 3%;   
+
 }
 
 .imgres{
