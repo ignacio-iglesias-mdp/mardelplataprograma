@@ -1,0 +1,118 @@
+article{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    }
+
+h1{
+    font-size: 30px;
+    margin-left: 45%;
+    color: blueviolet;
+}
+
+/* Actividad Nª1 */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    width: 600px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.itema{
+    background-color: aqua;
+}
+.itemb{
+    background-color: aliceblue;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+/* Actividad Nª2 */
+
+.ac2{
+    display:grid;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(244, 211, 162);
+    grid-template-areas: 'conte1 conte1 conte1'
+                        'two three four'
+                        'two five six'    ;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(229, 70, 38);
+    border-radius: 10px;
+    padding: 10px;
+    color: coral;
+}
+
+.conte1{
+    border: none;
+    border-radius: 10px;
+    grid-area: conte1;
+    margin:10px;    
+}
+
+.two{
+    grid-area: two;
+    background-color: rgb(254, 240, 171);
+    border-radius: 5px;
+    border: 3px solid rgb(229, 70, 38);
+    font-size: 15px;
+}
+
+.three{
+    grid-area: three;
+    background-color: rgb(254, 240, 171);
+    border-radius: 5px;
+    border: 3px solid rgb(229, 70, 38);
+    font-size: 15px;
+}
+
+.four{
+    grid-area: four;
+    background-color: rgb(254, 240, 171);
+    border-radius: 5px;
+     border: 3px solid rgb(229, 70, 38);
+    font-size: 15px;
+}
+
+.five{
+    grid-area: five;
+    background-color: rgb(254, 240, 171);
+    border-radius: 5px;
+    border: 3px solid rgb(229, 70, 38);
+    font-size: 15px;
+
+}
+
+.conte1 > div {
+    background-color: rgb(254, 240, 171);
+    border-radius: 5px;
+    border: 2px solid rgb(239, 149, 84);
+    height: 50px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
