@@ -1,0 +1,118 @@
+/* Estilos para la navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    margin-bottom: 20px; /* Añade un margen inferior para separar de las cards */
+  }
+  
+  .navbar h1 {
+    margin: 0; /* Elimina el margen superior e inferior del título */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex; /* Utiliza flexbox para alinear los elementos de la lista */
+    margin: 0; /* Elimina el margen por defecto de la lista */
+    padding: 0; /* Elimina el relleno por defecto de la lista */
+  }
+  
+  .navbar ul li {
+    margin-right: 20px; /* Añade un margen derecho entre los elementos de la lista */
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para las cards */
+  .card-container {
+    display: grid; /* Utiliza grid para crear un diseño de cuadrícula */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 
+    Crea columnas automáticas y responsivas.
+    auto-fit como primer argumento, la cuadrícula se adaptará automáticamente para ajustar el número 
+    máximo de columnas en una fila según el ancho disponible.
+    minmax(250px, 1fr) establece el tamaño mínimo y máximo que puede tener cada columna. 
+    Se especifica que cada columna debe tener un tamaño mínimo de 250 píxeles (250px) 
+    y un tamaño máximo de ocupar todo el espacio disponible (1fr).
+    */
+  
+    gap: 20px; /* Define un espacio entre las cards */
+  }
+  
+  .card {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .card h2 {
+    margin-top: 0; /* Elimina el margen superior del título de la card */
+  }
+  
+  .card p {
+    margin-bottom: 10px; /* Añade un margen inferior al párrafo de la card */
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el footer */
+  .footer {
+    margin-top: 40px; /* Agrega un margen superior al footer */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    flex-wrap: wrap; /* El valor wrap indica que los elementos deben envolverse en filas adicionales cuando no hay suficiente espacio horizontal disponible. */
+  }
+  
+  .footer-content {
+    flex: 1 1 300px; /* Distribuye el espacio disponible de manera equitativa entre los elementos */
+    margin-right: 20px; /* Añade un margen derecho para separar los elementos */
+  }
+  
+  .footer-bottom {
+    flex-basis: 100%; /* Las filas ocuparán todo el ancho disponible */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px; /* Añade un margen superior */
+    font-size: 12px;
+  }
+  
+  /* Media queries */
+  
+  /* Media query para pantallas con un ancho máximo de 768px */
+  @media (max-width: 768px) {
+    /* Estilos para la navbar en pantallas pequeñas */
+    .navbar {
+      flex-direction: column; /* Alinear los elementos de forma vertical */
+      align-items: center; /* Centrar los elementos horizontalmente */
+    }
+  
+    .navbar ul {
+      margin-top: 20px; /* Añadir un margen superior a la lista */
+      justify-content: center; /* Centrar los elementos de la lista horizontalmente */
+    }
+  
+    .navbar ul li {
+      margin-right: 0; /* Eliminar el margen derecho entre los elementos de la lista */
+      margin-bottom: 10px; /* Añadir un margen inferior entre los elementos de la lista */
+    }
+  
+    /* Estilos para las cards en pantallas pequeñas */
+    .card-container {
+      grid-template-columns: 1fr; /* Mostrar las cards en una sola columna */
+    }
+  
+    /* Estilos para el footer en pantallas pequeñas */
+    .footer-content {
+      margin-right: 0; /* Eliminar el margen derecho de los elementos del footer */
+      margin-bottom: 20px; /* Añadir un margen inferior entre los elementos del footer */
+    }
+  }
+  
