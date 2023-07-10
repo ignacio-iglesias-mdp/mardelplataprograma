@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    border: 1px solid black;
+
+}
+
+.caja1{
+    background-color: rgb(189, 211, 22);
+    height: 20vh;
+    border: 1px solid black;
+}
+
+.caja2{
+      background-color: rgb(26, 31, 189);
+      height: 40vh; 
+      border: 1px solid black;  
+}
+
+.caja3{
+   background-color: rgb(26, 31, 189);
+   border: 1px solid black;
+
+
+}
