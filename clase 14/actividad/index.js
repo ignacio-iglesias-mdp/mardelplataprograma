@@ -1,3 +1,5 @@
+
+
 var inputTarea = document.getElementById("nombre")
 var btn = document.getElementById("agrega")
 var listado = document.getElementById("listado")
@@ -33,6 +35,10 @@ btn.onclick = function() {
 
     li.classList.add("list-group-item")
     li.classList.add("list-group-item-secondary");
+
+    inputTarea.focus();
+    inputTarea.value="";
+
 
 
 
