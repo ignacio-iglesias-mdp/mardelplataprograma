@@ -23,7 +23,7 @@ const addDataPersona = (nombre, apellido, edad, provincia, status, pago) => {
 };
 
 const filtrar_por_nombre = (nombre) => {
-    return dataPersona.filter((persona) => persona.nombre.toLowerCase() === nombre.toLowerCase());
+    return dataPersona.filter((persona) => persona.nombre.toLowerCase().includes(nombre.toLowerCase()));
 };
 
 for (let i = 1; i <= 10; i++) {
