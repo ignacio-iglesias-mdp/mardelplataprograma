@@ -1,0 +1,42 @@
+body {
+    background-color: #a9cff5;
+  }
+  
+  .container {
+    background-color: #ebeaea;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .letra-acertada {
+    color: rgb(4, 235, 4);
+  }
+  
+  .letra-no-acertada {
+    color: rgb(227, 83, 83);
+  }
+  
+  .mensaje-incorrecto {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+  }
+  
+  .modal-ganaste .modal-content {
+    border-color: green;
+    background-color: rgba(0, 128,);
+  }
+  
+  .modal-perdiste .modal-content {
+    border-color: red;
+    background-color: rgba(128, 11, 0);
+
+  }
