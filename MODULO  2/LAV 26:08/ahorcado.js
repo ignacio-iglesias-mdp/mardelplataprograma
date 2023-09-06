@@ -5,6 +5,10 @@ let colorSeleccionado = "";
 let intentosRestantes = 0;
 let letrasAdivinadas = [];
 
+var foto = document.getElementById("foto")
+const FotoIntento = ["1.png","2.png","3.png","4.png","5.png"]
+foto.src=FotoIntento[intentosMaximos]
+
 const startButton = document.getElementById("startButton");
 const guessButton = document.getElementById("guessButton");
 const inputLetter = document.getElementById("inputLetter");
@@ -79,6 +83,7 @@ function adivinar() {
         letrasAdivinadas.push(adivinanza);
         if (!colorSeleccionado.includes(adivinanza)) {
           intentosRestantes--;
+          foto.src=FotoIntento[intentosMaximos]
         }
         actualizarInterfaz();
       }
