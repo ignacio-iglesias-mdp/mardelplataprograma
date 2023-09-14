@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "next": "^13.4.19",
     "prompt-sync": "^4.2.0"
   }
 }
